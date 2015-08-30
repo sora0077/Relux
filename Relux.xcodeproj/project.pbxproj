@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92E87FB1B78FE2500F55618 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92E87FA1B78FE2500F55618 /* Component.swift */; };
+		D93F40BC1B80B1E100DBEDA3 /* EventEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F40BB1B80B1E100DBEDA3 /* EventEngine.swift */; };
+		D93F40BE1B838FCF00DBEDA3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F40BD1B838FCF00DBEDA3 /* Router.swift */; };
 		D95FA9A81B6FAE3300CC72DE /* Relux.h in Headers */ = {isa = PBXBuildFile; fileRef = D95FA9A71B6FAE3300CC72DE /* Relux.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D95FA9AF1B6FAE3400CC72DE /* Relux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95FA9A41B6FAE3300CC72DE /* Relux.framework */; };
 		D95FA9B41B6FAE3400CC72DE /* ReluxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FA9B31B6FAE3400CC72DE /* ReluxTests.swift */; };
+		D95FA9BF1B6FAE6600CC72DE /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FA9BE1B6FAE6600CC72DE /* Dispatcher.swift */; };
+		D95FA9C11B6FAE7A00CC72DE /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FA9C01B6FAE7A00CC72DE /* EventEmitter.swift */; };
+		D95FA9C31B6FAE9900CC72DE /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FA9C21B6FAE9900CC72DE /* Store.swift */; };
+		D95FA9C51B6FB1D300CC72DE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FA9C41B6FB1D300CC72DE /* Event.swift */; };
+		D95FA9C71B6FB7E900CC72DE /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FA9C61B6FB7E900CC72DE /* Action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +31,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D92E87FA1B78FE2500F55618 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		D93F40BB1B80B1E100DBEDA3 /* EventEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEngine.swift; sourceTree = "<group>"; };
+		D93F40BD1B838FCF00DBEDA3 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D95FA9A41B6FAE3300CC72DE /* Relux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Relux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95FA9A71B6FAE3300CC72DE /* Relux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Relux.h; sourceTree = "<group>"; };
 		D95FA9A91B6FAE3300CC72DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95FA9AE1B6FAE3400CC72DE /* ReluxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReluxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95FA9B31B6FAE3400CC72DE /* ReluxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReluxTests.swift; sourceTree = "<group>"; };
 		D95FA9B51B6FAE3400CC72DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95FA9BE1B6FAE6600CC72DE /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		D95FA9C01B6FAE7A00CC72DE /* EventEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEmitter.swift; sourceTree = "<group>"; };
+		D95FA9C21B6FAE9900CC72DE /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D95FA9C41B6FB1D300CC72DE /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D95FA9C61B6FB7E900CC72DE /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,14 @@
 			children = (
 				D95FA9A71B6FAE3300CC72DE /* Relux.h */,
 				D95FA9A91B6FAE3300CC72DE /* Info.plist */,
+				D95FA9BE1B6FAE6600CC72DE /* Dispatcher.swift */,
+				D95FA9C01B6FAE7A00CC72DE /* EventEmitter.swift */,
+				D95FA9C21B6FAE9900CC72DE /* Store.swift */,
+				D95FA9C41B6FB1D300CC72DE /* Event.swift */,
+				D95FA9C61B6FB7E900CC72DE /* Action.swift */,
+				D92E87FA1B78FE2500F55618 /* Component.swift */,
+				D93F40BB1B80B1E100DBEDA3 /* EventEngine.swift */,
+				D93F40BD1B838FCF00DBEDA3 /* Router.swift */,
 			);
 			path = Relux;
 			sourceTree = "<group>";
@@ -142,6 +166,7 @@
 		D95FA99B1B6FAE3300CC72DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = jp.sora0077;
 				TargetAttributes = {
@@ -193,6 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93F40BE1B838FCF00DBEDA3 /* Router.swift in Sources */,
+				D95FA9C51B6FB1D300CC72DE /* Event.swift in Sources */,
+				D92E87FB1B78FE2500F55618 /* Component.swift in Sources */,
+				D95FA9C31B6FAE9900CC72DE /* Store.swift in Sources */,
+				D95FA9BF1B6FAE6600CC72DE /* Dispatcher.swift in Sources */,
+				D95FA9C71B6FB7E900CC72DE /* Action.swift in Sources */,
+				D93F40BC1B80B1E100DBEDA3 /* EventEngine.swift in Sources */,
+				D95FA9C11B6FAE7A00CC72DE /* EventEmitter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +340,7 @@
 		D95FA9B91B6FAE3400CC72DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,12 +351,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.sora0077.Relux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D95FA9BA1B6FAE3400CC72DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -375,6 +411,7 @@
 				D95FA9BA1B6FAE3400CC72DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95FA9BB1B6FAE3400CC72DE /* Build configuration list for PBXNativeTarget "ReluxTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +420,7 @@
 				D95FA9BD1B6FAE3400CC72DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
